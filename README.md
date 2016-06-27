@@ -21,5 +21,4 @@ BleachingResponseIn20_q.R
 BleachingResponseIn20_theta2.R
 BleachingResponseIn20_w.R
 ```
-#####Analysis of empirical bleaching response data:
 
