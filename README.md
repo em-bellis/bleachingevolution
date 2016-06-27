@@ -6,7 +6,8 @@ This repository contains code associated with computer simulations and figures p
 ```
 evoTraj_noX11.R
 ```
-Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A.  Original versions of this code were provided by Steve Arnold during Z599: Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
+Original code to calculate trajectories by Steve Arnold. This modified version does not use X11.  Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A.
+
 #####Running an interactive web app for evolutionary trajectory simulations via Shiny for R:
 ```
 ui.R
