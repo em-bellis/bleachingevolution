@@ -14,7 +14,7 @@ server.R
 ```
 Code to create a user-friendly web app for evoTraj_noX11.R.
 #####Plotting simulation results after 20 generations:
-This set of scripts creates plots summarizing simulation results with varying different parameters of the model (e.g. Fig. 3B-C, Fig. 4).  Essentially they create run the simulation shown in Figure 3A many times, for populations with varying degrees of genetic variance in Environment 1 compared to Environment 2 (G11:G22).  Bleaching response in Environment 1 (i.e. x-axis from Fig. 3A) is then plotted as the response.
+This set of scripts creates plots summarizing simulation results with varying different parameters of the model (e.g. Fig. 3B-C, Fig. 4).  Essentially they run the simulation from Figure 3A many times, for populations with varying degrees of genetic variance in Environment 1 compared to Environment 2 (G11:G22).  Bleaching response in Environment 1 (i.e. x-axis from Fig. 3A) is then plotted as the response.
 ```
 BleachingResponseIn20_g22.R
 BleachingResponseIn20_theta2.R
