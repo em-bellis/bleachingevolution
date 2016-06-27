@@ -6,15 +6,8 @@ This repository contains code associated with computer simulations and figures p
 Original code for `evoTraj_noX11.R` by Steve J. Arnold.  This modified version does not use X11.  It depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A from Bellis & Denver (submitted).
 
 #####Running an interactive web app for evolutionary trajectory simulations:
-`ui.R` and `server.R` contain code needed to create a user-friendly web app to use `evoTraj_noX11.R` via [Shiny for R](http://shiny.rstudio.com).
+`ui.R` and `server.R` contain code needed to create a user-friendly web app to use `evoTraj_noX11.R` via [Shiny for R](http://shiny.rstudio.com).  Web app currently hosted at [https://embellis.shinyapps.io/BleachingEvoViaViaLande/](https://embellis.shinyapps.io/BleachingEvoViaViaLande/).
 
 #####Plotting simulation results after 20 generations:
-This set of scripts creates plots summarizing simulation results with varying different parameters of the model (e.g. Fig. 3B-C, Fig. 4).  Essentially they run the simulation from Figure 3A many times, for populations with varying degrees of genetic variance in Environment 1 compared to Environment 2 (i.e. G11:G22).  Bleaching response in Environment 1 (i.e. x-axis from Fig. 3A) is then plotted as the response.
-```
-BleachingResponseIn20_g22.R
-BleachingResponseIn20_theta2.R
-BleachingResponseIn20_q.R
-BleachingResponseIn20_theta2.R
-BleachingResponseIn20_w.R
-```
+This set of scripts creates plots summarizing simulation results with varying different parameters of the model (e.g. Fig. 3B-C, Fig. 4).  Essentially they run the simulation from Figure 3A many times, for populations with varying degrees of genetic variance in Environment 1 compared to Environment 2 (i.e. G11:G22).  Bleaching response in Environment 1 (i.e. x-axis from Fig. 3A) is then plotted as the response.  Set includes `BleachingResponseIn20_g22.R`,`BleachingResponseIn20_theta2.R`,`BleachingResponseIn20_q.R`,`BleachingResponseIn20_theta2.R`, and `BleachingResponseIn20_w.R`
 
