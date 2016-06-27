@@ -8,6 +8,7 @@ evoTraj_noX11.R
 ```
 Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A.  Original versions of this code were provided by Steve Arnold during Z599: Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
 #####Running an interactive web app for evolutionary trajectory simulations via Shiny for R:
+Basically evoTraj_noX11.R, but more user-friendly.
 ```
 ui.R
 server.R
