@@ -1,4 +1,4 @@
-#Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A. Original versions of this code were provided by Steve Arnold during Z599: Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
+#Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A. Original versions of this code were provided by Steve Arnold during Z599 : Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
 
 library(MASS)
 library(car)
