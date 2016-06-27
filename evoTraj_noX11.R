@@ -1,4 +1,5 @@
-#Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A. Original versions of this code were provided by Steve Arnold during Z599 : Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
+#Depicts a simulated evolutionary trajectory for bleaching response in two environments, a la Figure 3A. 
+#Original versions of this code were provided by Steve Arnold during Z599 : Evolutionary Quantitative Genetics, a course he taught at Oregon State University in Winter 2012.
 
 library(MASS)
 library(car)
@@ -25,7 +26,7 @@ r12=c(0.999, 0.75, 0.375, 0, -0.375, -0.75, -0.999)
 df.T <- NULL
 for(i in 1:length(r12)){ ##this loop controls different values of genetic correlation, creating a trajectory for each
   
-  ##create matrices from parameter values, except for G
+  ##create matrices based on parameter values
   omega.P = matrix(c(omega1+P11, 0, 0, omega2+P22), 2)
   inverse = solve(omega.P)
   zbar.mat=matrix(c(zbar1.start, zbar2.start),1)
